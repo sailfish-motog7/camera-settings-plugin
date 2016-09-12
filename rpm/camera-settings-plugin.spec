@@ -24,6 +24,8 @@ BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:  mce-headers
 BuildRequires:  qt5-qttools-linguist
 
+Obsoletes:  onyx-camera-settings-plugin
+
 %description
 %{summary}.
 
