@@ -250,7 +250,7 @@ Page
 
     function update(model, combo, confval)
     {
-        combo._updating = false
+        //combo._updating = false
         for (var i=0 ; i<model.count; i++)
         {
             console.log("ir " + model.get(i).resolution + " cv " + confval.value)
